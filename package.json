@@ -149,7 +149,7 @@
     "ansi-html": "0.0.8",
     "trim-newlines": "3.0.1",
     "browserslist": "4.16.5",
-    "tar": "3.2.3",
+    "tar": "4.4.2",
     "immer": "9.0.6"
   }
 }
