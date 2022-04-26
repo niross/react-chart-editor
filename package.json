@@ -25,7 +25,7 @@
     "test:percy-local": "node --max-old-space-size=4096 $(npm bin)/build-storybook",
     "watch": "babel src --watch --out-dir lib --source-maps | node-sass -w src/styles/main.scss lib/react-chart-editor.css",
     "watch-test": "jest --watch",
-    "preinstall": "npx npm-force-resolutions",
+    "preinstall": "npx force-resolutions",
     "prepare": "npm run make:lib"
   },
   "dependencies": {
