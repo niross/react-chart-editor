@@ -4,7 +4,7 @@
   "version": "0.45.0",
   "author": "Plotly, Inc.",
   "bugs": {
-    "url": "https://github.com/plotly/react-chart-editor/issues"
+    "url": "https://github.com/uktrade/react-chart-editor/issues"
   },
   "scripts": {
     "lint": "prettier --write \"src/**/*.js\"",
@@ -25,7 +25,8 @@
     "test:percy-local": "node --max-old-space-size=4096 $(npm bin)/build-storybook",
     "watch": "babel src --watch --out-dir lib --source-maps | node-sass -w src/styles/main.scss lib/react-chart-editor.css",
     "watch-test": "jest --watch",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx force-resolutions",
+    "prepare": "npm run make:lib"
   },
   "dependencies": {
     "@plotly/draft-js-export-html": "1.2.0",
@@ -114,7 +115,6 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "homepage": "https://plotly.github.io/react-chart-editor/",
   "jest": {
     "roots": [
       "<rootDir>/src/"
@@ -138,7 +138,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/plotly/react-chart-editor.git"
+    "url": "https://github.com/uktrade/react-chart-editor.git"
   },
   "browserslist": [
     "ie 11"
