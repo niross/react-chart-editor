@@ -16,7 +16,6 @@ import {
 } from '../components';
 
 const GraphCreatePanel = (props, {localize: _}) => {
-  console.log('PROPS', props);
   return (
     <TraceAccordion
       canAdd
@@ -25,8 +24,8 @@ const GraphCreatePanel = (props, {localize: _}) => {
       <TraceSelector label={_('Type')} attr="type" show />
       <Dropzone attr="geojson" fileType="geojson" />
       <LocationSelector attr="type" />
-      <DataSelector label={_('Values')} attr="values" />
       <DataSelector label={_('Labels')} attr="labels" />
+      <DataSelector label={_('Values')} attr="values" />
       <DataSelector label={_('Parents')} attr="parents" />
 
       <Dropdown
