@@ -16,6 +16,7 @@ import {
 } from '../components';
 
 const GraphCreatePanel = (props, {localize: _}) => {
+  console.log('PROPS', props);
   return (
     <TraceAccordion
       canAdd
