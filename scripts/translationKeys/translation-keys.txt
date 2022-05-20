@@ -91,7 +91,7 @@ Boxes                                                                           
 Boxes and Points                                                                                             // /components/fields/derived.js:751
 Button                                                                                                       // /components/fields/UpdateMenuButtons.js:18
 Buttons                                                                                                      // /components/containers/UpdateMenuAccordion.js:22
-By Type                                                                                                      // /components/containers/TraceAccordion.js:158
+By Type                                                                                                      // /components/containers/TraceAccordion.js:159
 C                                                                                                            // /components/fields/derived.js:613
 Call out your data.                                                                                          // /components/containers/AnnotationAccordion.js:57
 Candlestick                                                                                                  // /lib/computeTraceOptionsFromSchema.js:123
@@ -267,7 +267,7 @@ Include Range                                                                   
 Include Values                                                                                               // /components/fields/FilterOperation.js:83
 Increasing                                                                                                   // /default_panels/StyleTracesPanel.js:82
 Increasing Marker Styles                                                                                     // /default_panels/StyleTracesPanel.js:276
-Individually                                                                                                 // /components/containers/TraceAccordion.js:157
+Individually                                                                                                 // /components/containers/TraceAccordion.js:158
 Inequality                                                                                                   // /components/fields/FilterOperation.js:71
 Infer Zero                                                                                                   // /default_panels/StyleTracesPanel.js:375
 Inside                                                                                                       // /components/fields/TextPosition.js:98
@@ -290,7 +290,7 @@ Label                                                                           
 Label Format                                                                                                 // /default_panels/StyleAxesPanel.js:123
 Label Prefix                                                                                                 // /default_panels/StyleColorbarsPanel.js:148
 Label Suffix                                                                                                 // /default_panels/StyleColorbarsPanel.js:175
-Labels                                                                                                       // /default_panels/GraphCreatePanel.js:28
+Labels                                                                                                       // /default_panels/GraphCreatePanel.js:27
 Lakes                                                                                                        // /default_panels/StyleMapsPanel.js:174
 Land                                                                                                         // /default_panels/StyleMapsPanel.js:164
 Lasso                                                                                                        // /default_panels/StyleLayoutPanel.js:51

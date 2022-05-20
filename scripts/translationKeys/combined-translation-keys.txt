@@ -89,7 +89,7 @@ Boxes                                                                           
 Boxes and Points                                                                                            // react-chart-editor: /components/fields/derived.js:751
 Button                                                                                                      // react-chart-editor: /components/fields/UpdateMenuButtons.js:18
 Buttons                                                                                                     // react-chart-editor: /components/containers/UpdateMenuAccordion.js:22
-By Type                                                                                                     // react-chart-editor: /components/containers/TraceAccordion.js:158
+By Type                                                                                                     // react-chart-editor: /components/containers/TraceAccordion.js:159
 C                                                                                                           // react-chart-editor: /components/fields/derived.js:613
 Call out your data.                                                                                         // react-chart-editor: /components/containers/AnnotationAccordion.js:57
 Candlestick                                                                                                 // react-chart-editor: /lib/computeTraceOptionsFromSchema.js:123
@@ -286,7 +286,7 @@ Include Range                                                                   
 Include Values                                                                                              // react-chart-editor: /components/fields/FilterOperation.js:83
 Increasing                                                                                                  // react-chart-editor: /default_panels/StyleTracesPanel.js:82
 Increasing Marker Styles                                                                                    // react-chart-editor: /default_panels/StyleTracesPanel.js:276
-Individually                                                                                                // react-chart-editor: /components/containers/TraceAccordion.js:157
+Individually                                                                                                // react-chart-editor: /components/containers/TraceAccordion.js:158
 Inequality                                                                                                  // react-chart-editor: /components/fields/FilterOperation.js:71
 Infer Zero                                                                                                  // react-chart-editor: /default_panels/StyleTracesPanel.js:375
 Inside                                                                                                      // react-chart-editor: /components/fields/TextPosition.js:98
@@ -309,7 +309,7 @@ Label                                                                           
 Label Format                                                                                                // react-chart-editor: /default_panels/StyleAxesPanel.js:123
 Label Prefix                                                                                                // react-chart-editor: /default_panels/StyleColorbarsPanel.js:148
 Label Suffix                                                                                                // react-chart-editor: /default_panels/StyleColorbarsPanel.js:175
-Labels                                                                                                      // react-chart-editor: /default_panels/GraphCreatePanel.js:28
+Labels                                                                                                      // react-chart-editor: /default_panels/GraphCreatePanel.js:27
 Lakes                                                                                                       // react-chart-editor: /default_panels/StyleMapsPanel.js:174
 Land                                                                                                        // react-chart-editor: /default_panels/StyleMapsPanel.js:164
 Lasso                                                                                                       // react-chart-editor: /default_panels/StyleLayoutPanel.js:51

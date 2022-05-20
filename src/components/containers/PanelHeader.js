@@ -53,6 +53,7 @@ class PanelHeader extends Component {
                     : () => addAction.handler(this.context)
                 }
                 label={addAction.label}
+                disabled={addAction.disabled === true}
               />
               {this.state.addPanelOpen && (
                 <div className="Select">

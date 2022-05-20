@@ -135,6 +135,7 @@ class TraceAccordion extends Component {
             });
           }
         },
+        disabled: this.filteredTraces.length > 0
       };
       const traceFolds = this.renderTraceFolds();
       return (
