@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { PanelMenuWrapper } from './components';
 import {
   GraphCreatePanel,
+  GraphTransformsPanel,
   StyleLayoutPanel,
   StyleAxesPanel,
   StyleMapsPanel,
@@ -12,14 +13,19 @@ import {
   StyleColorbarsPanel,
 } from './default_panels';
 import {traceHasColorbar} from './default_panels/StyleColorbarsPanel';
-import { TRACE_TO_AXIS } from './lib/constants';
+import {TRANSFORMABLE_TRACES} from "./lib/constants";
 
 class DefaultEditor extends Component {
   constructor(props, context) {
     super(props, context);
+    this.hasTransforms = this.hasTransforms.bind(this);
     this.hasAxes = this.hasAxes.bind(this);
     this.hasColorbars = this.hasColorbars.bind(this);
     this.hasLegend = this.hasLegend.bind(this);
+  }
+
+  hasTransforms() {
+    return this.context.fullData.some((d) => TRANSFORMABLE_TRACES.includes(d.type));
   }
 
   hasAxes() {
@@ -51,6 +57,7 @@ class DefaultEditor extends Component {
     return (
       <PanelMenuWrapper menuPanelOrder={this.props.menuPanelOrder}>
         <GraphCreatePanel group={_('Structure')} name={_('Plots')} />
+        <GraphTransformsPanel group={_('Structure')} name={_('Filters')} />
         <StyleLayoutPanel group={_('Style')} name={_('General')} />
         <StyleTracesPanel group={_('Style')} name={_('Plots')} />
         {this.hasAxes() && <StyleAxesPanel group={_('Style')} name={_('Axes')} />}

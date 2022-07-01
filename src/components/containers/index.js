@@ -15,6 +15,7 @@ import TraceRequiredPanel from './TraceRequiredPanel';
 import SingleSidebarItem from './SingleSidebarItem';
 import ModalProvider from './ModalProvider';
 import Modal from './Modal';
+import TransformAccordion from './TransformAccordion';
 
 export * from './derived';
 export {
@@ -39,4 +40,5 @@ export {
   Modal,
   ModalProvider,
   PanelMessage,
+  TransformAccordion,
 };
