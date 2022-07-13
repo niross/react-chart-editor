@@ -7,6 +7,8 @@ import connectUpdateMenuToLayout from './connectUpdateMenuToLayout';
 import connectLayersToMapbox from './connectLayersToMapbox';
 import connectAxesToLayout from './connectAxesToLayout';
 import connectLayoutToPlot from './connectLayoutToPlot';
+import connectTransformToTrace from './connectTransformToTrace';
+import connectAggregationToTransform from './connectAggregationToTransform';
 import connectToContainer, {containerConnectedContextTypes} from './connectToContainer';
 import {computeTraceOptionsFromSchema} from './computeTraceOptionsFromSchema';
 import connectTraceToPlot from './connectTraceToPlot';
@@ -261,4 +263,6 @@ export {
   upperCase,
   isVisibleGivenCustomConfig,
   walkObject,
+  connectAggregationToTransform,
+  connectTransformToTrace,
 };

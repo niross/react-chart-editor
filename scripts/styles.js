@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const sass = require('node-sass');
+const sass = require('sass');
 
 /* eslint-disable no-process-env */
 const SASS_ENV = process.env.SASS_ENV || 'default';
@@ -23,7 +23,7 @@ fs.readFile(src, function(err, data) {
   sass.render(
     {
       data: '$ENV: "' + SASS_ENV + '";\n' + data,
-      includePaths: [path.dirname(src)],
+      includePaths: [path.dirname(src), '../../'],
       outFile: dist,
     },
     (error, result) => {

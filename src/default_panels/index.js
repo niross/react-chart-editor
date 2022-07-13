@@ -6,3 +6,4 @@ export {default as StyleLegendPanel} from './StyleLegendPanel';
 export {default as StyleNotesPanel} from './StyleNotesPanel';
 export {default as StyleTracesPanel} from './StyleTracesPanel';
 export {default as StyleColorbarsPanel} from './StyleColorbarsPanel';
+export {default as GraphTransformsPanel} from './GraphTransformsPanel';
